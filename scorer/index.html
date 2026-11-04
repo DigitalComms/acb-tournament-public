@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ACB · Tournament score entry</title>
+<link rel="stylesheet" href="style.css">
+<body>
+<main>
+  <header><p class="eyebrow">ASIAN COUNTY BOARD · MATCH DAY</p><h1>Tournament score entry</h1><p>Enter results here, then download the tournament file for upload to GitHub.</p></header>
+  <section class="panel" aria-label="Tournament file">
+    <div class="file-actions"><label class="button secondary">Open tournament file<input id="file" type="file" accept=".json,application/json"></label><button id="download" disabled>Download updated tournament file</button></div>
+    <h2 id="tournament-name">Loading AYC 2026…</h2>
+    <p id="file-state">You can also open a tournament JSON file from your computer.</p>
+    <p id="message" role="status" aria-live="polite"></p>
+    <div id="restore" hidden><p>A saved draft is available in this browser.</p><button id="restore-button" class="secondary">Restore saved draft</button><button id="discard-draft" class="secondary">Discard saved draft</button></div>
+  </section>
+  <section id="workspace" hidden>
+    <div class="filters"><label>Division<select id="division"></select></label><label>Find a match<input id="search" type="search" placeholder="Team, match ID, time or pitch"></label></div>
+    <p id="division-note"></p>
+    <div class="workspace"><section class="panel"><h2>Matches <span id="count"></span></h2><div id="matches"></div></section>
+    <section class="panel editor"><h2 id="match-title">Select a match</h2><p id="match-detail"></p>
+      <form id="score-form" hidden>
+        <div id="qualification" hidden><p>Finalists have not been confirmed. Confirm the teams from the standings, including any team-agreed tiebreaks.</p><label>Team 1<select id="participant1"></select></label><label>Team 2<select id="participant2"></select></label><label class="check"><input id="qualified" type="checkbox"> I have confirmed qualification and resolved any standings ties with the teams.</label></div>
+        <p id="conditional-note" hidden>Game 3 can only be scored when the first two championship games have one agreed winner each.</p>
+        <div class="score-grid"><fieldset><legend id="team1-label">Team 1</legend><label>Goals<input id="goals1" type="number" min="0" step="1" required inputmode="numeric"></label><label>Points<input id="points1" type="number" min="0" step="1" required inputmode="numeric"></label></fieldset><fieldset><legend id="team2-label">Team 2</legend><label>Goals<input id="goals2" type="number" min="0" step="1" required inputmode="numeric"></label><label>Points<input id="points2" type="number" min="0" step="1" required inputmode="numeric"></label></fieldset></div>
+        <p id="score-preview" aria-live="polite"></p>
+        <div id="tie-panel" hidden><p>A level final or series game needs a team-agreed winner. You can save the level score while the decision is pending.</p><label>Agreed winner<select id="winner"><option value="">Awaiting team agreement</option></select></label><label>Agreement note<input id="agreement-note" placeholder="Record what the teams agreed"></label><label class="check"><input id="agreed" type="checkbox"> Both teams have agreed to this winner.</label></div>
+        <p id="form-error" role="alert"></p><div class="file-actions"><button type="submit">Save result to draft</button><button id="clear" type="button" class="secondary">Remove result</button></div>
+      </form>
+      <p class="muted">Saving here changes your local draft only. Download it and replace the same tournament file in GitHub to update the public data. Use one scorekeeper/file at a time.</p>
+    </section></div>
+  </section>
+  <footer>Keep a downloaded copy after each batch of results. Browser storage is a convenience, not your only backup. No login or external score service is used.</footer>
+</main><script src="app.js"></script>
+</body></html>
+
