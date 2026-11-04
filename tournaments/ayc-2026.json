@@ -1,0 +1,1445 @@
+{
+  "schemaVersion": 1,
+  "id": "ayc-2026",
+  "name": "BOLT Inventors Asian Youth Championship 2026",
+  "timeZone": "Asia/Ho_Chi_Minh",
+  "startDate": "2026-11-06",
+  "endDate": "2026-11-07",
+  "matchDate": "2026-11-07",
+  "venue": "An Phu Sports Park (Fox Fields), Ho Chi Minh City, Vietnam",
+  "source": {
+    "file": "AYC Final Schedule 2026- Ready to Print.xlsm",
+    "sheet": "All Fixtures",
+    "driveFileId": "1fSjBtq3KnTePBplefjJPikvnHv6tKYoZ"
+  },
+  "updatedAt": null,
+  "divisions": [
+    {
+      "id": "U7",
+      "name": "Under 7s",
+      "format": "festival",
+      "teams": [
+        "Singapore",
+        "Viet Celts",
+        "Na Fianna"
+      ],
+      "groups": {},
+      "rules": {
+        "scoreValues": {
+          "goal": 3,
+          "point": 1
+        },
+        "competitionPoints": {
+          "win": 3,
+          "draw": 1,
+          "loss": 0
+        },
+        "rankingGuidance": [
+          "competitionPoints",
+          "scoreDifference",
+          "totalScored"
+        ],
+        "unresolvedTie": "team_agreement",
+        "crossoverResultsCount": false,
+        "finalsCountForStandings": false,
+        "progression": null
+      },
+      "standingsDecisions": [],
+      "matches": [
+        {
+          "id": "U7-E01",
+          "date": "2026-11-07",
+          "start": "11:15",
+          "end": "11:25",
+          "pitch": "3A",
+          "stage": "Festival Match",
+          "group": null,
+          "team1": "Singapore",
+          "team2": "Viet Celts",
+          "team1Label": "Singapore",
+          "team2Label": "Viet Celts",
+          "referee": "Stephen Barry",
+          "notes": "10-minute fixture • Block 1/3 • Match 1/2",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U7-E02",
+          "date": "2026-11-07",
+          "start": "11:25",
+          "end": "11:35",
+          "pitch": "3A",
+          "stage": "Festival Match",
+          "group": null,
+          "team1": "Singapore",
+          "team2": "Na Fianna",
+          "team1Label": "Singapore",
+          "team2Label": "Na Fianna",
+          "referee": "Stephen Barry",
+          "notes": "10-minute fixture • Block 1/3 • Match 2/2",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U7-E03",
+          "date": "2026-11-07",
+          "start": "12:35",
+          "end": "12:45",
+          "pitch": "2A",
+          "stage": "Festival Match",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "Singapore",
+          "team1Label": "Viet Celts",
+          "team2Label": "Singapore",
+          "referee": "Catriona Treanor",
+          "notes": "10-minute fixture • Block 2/3 • Match 1/2",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U7-E04",
+          "date": "2026-11-07",
+          "start": "12:45",
+          "end": "12:55",
+          "pitch": "2A",
+          "stage": "Festival Match",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "Na Fianna",
+          "team1Label": "Viet Celts",
+          "team2Label": "Na Fianna",
+          "referee": "Catriona Treanor",
+          "notes": "10-minute fixture • Block 2/3 • Match 2/2",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U7-E05",
+          "date": "2026-11-07",
+          "start": "15:15",
+          "end": "15:25",
+          "pitch": "3A",
+          "stage": "Festival Match",
+          "group": null,
+          "team1": "Na Fianna",
+          "team2": "Singapore",
+          "team1Label": "Na Fianna",
+          "team2Label": "Singapore",
+          "referee": null,
+          "notes": "10-minute fixture • Block 3/3 • Match 1/2",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U7-E06",
+          "date": "2026-11-07",
+          "start": "15:25",
+          "end": "15:35",
+          "pitch": "3A",
+          "stage": "Festival Match",
+          "group": null,
+          "team1": "Na Fianna",
+          "team2": "Viet Celts",
+          "team1Label": "Na Fianna",
+          "team2Label": "Viet Celts",
+          "referee": null,
+          "notes": "10-minute fixture • Block 3/3 • Match 2/2",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": "U9",
+      "name": "Under 9s",
+      "format": "round_robin_with_finals",
+      "teams": [
+        "Viet Celts",
+        "Singapore",
+        "ISHCMC",
+        "Na Fianna/Thailand"
+      ],
+      "groups": {},
+      "rules": {
+        "scoreValues": {
+          "goal": 3,
+          "point": 1
+        },
+        "competitionPoints": {
+          "win": 3,
+          "draw": 1,
+          "loss": 0
+        },
+        "rankingGuidance": [
+          "competitionPoints",
+          "scoreDifference",
+          "totalScored"
+        ],
+        "unresolvedTie": "team_agreement",
+        "crossoverResultsCount": false,
+        "finalsCountForStandings": false,
+        "progression": {
+          "requireAllQualifyingResults": true,
+          "requireResolvedQualifyingTies": true,
+          "finals": [
+            {
+              "name": "Cup",
+              "matchId": "U9-F01",
+              "participants": [
+                {
+                  "position": 1
+                },
+                {
+                  "position": 2
+                }
+              ]
+            },
+            {
+              "name": "Plate",
+              "matchId": "U9-F02",
+              "participants": [
+                {
+                  "position": 3
+                },
+                {
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "standingsDecisions": [],
+      "matches": [
+        {
+          "id": "U9-G01",
+          "date": "2026-11-07",
+          "start": "10:35",
+          "end": "10:55",
+          "pitch": "1A",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "Singapore",
+          "team1Label": "Viet Celts",
+          "team2Label": "Singapore",
+          "referee": "Daniel Burke",
+          "notes": "Round 1",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U9-G02",
+          "date": "2026-11-07",
+          "start": "10:35",
+          "end": "10:55",
+          "pitch": "1B",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "ISHCMC",
+          "team2": "Na Fianna/Thailand",
+          "team1Label": "ISHCMC",
+          "team2Label": "Na Fianna/Thailand",
+          "referee": "Matt O'Brien",
+          "notes": "Round 1",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U9-G03",
+          "date": "2026-11-07",
+          "start": "11:55",
+          "end": "12:15",
+          "pitch": "1A",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "ISHCMC",
+          "team1Label": "Viet Celts",
+          "team2Label": "ISHCMC",
+          "referee": "Everna Everard",
+          "notes": "Round 2",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U9-G04",
+          "date": "2026-11-07",
+          "start": "11:55",
+          "end": "12:15",
+          "pitch": "1B",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Singapore",
+          "team2": "Na Fianna/Thailand",
+          "team1Label": "Singapore",
+          "team2Label": "Na Fianna/Thailand",
+          "referee": "Conor Melvin",
+          "notes": "Round 2",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U9-G05",
+          "date": "2026-11-07",
+          "start": "13:15",
+          "end": "13:35",
+          "pitch": "1A",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "Na Fianna/Thailand",
+          "team1Label": "Viet Celts",
+          "team2Label": "Na Fianna/Thailand",
+          "referee": "Matt O'Brien",
+          "notes": "Round 3",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U9-G06",
+          "date": "2026-11-07",
+          "start": "13:15",
+          "end": "13:35",
+          "pitch": "1B",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Singapore",
+          "team2": "ISHCMC",
+          "team1Label": "Singapore",
+          "team2Label": "ISHCMC",
+          "referee": "Laura Comerford",
+          "notes": "Round 3",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U9-F01",
+          "date": "2026-11-07",
+          "start": "14:35",
+          "end": "14:55",
+          "pitch": "1A",
+          "stage": "Cup Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "1st Place",
+          "team2Label": "2nd Place",
+          "referee": "Matt O'Brien",
+          "notes": "Cup",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U9-F02",
+          "date": "2026-11-07",
+          "start": "14:35",
+          "end": "14:55",
+          "pitch": "1B",
+          "stage": "Plate Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "3rd Place",
+          "team2Label": "4th Place",
+          "referee": "Joe Trolan",
+          "notes": "Plate",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": "U11",
+      "name": "Under 11s",
+      "format": "groups_with_crossover_and_finals",
+      "teams": [
+        "Viet Celts",
+        "Na Fianna",
+        "Singapore",
+        "Viet Celts TH",
+        "ISHCMC",
+        "Thailand"
+      ],
+      "groups": {
+        "A": [
+          "Viet Celts",
+          "Na Fianna",
+          "Singapore"
+        ],
+        "B": [
+          "Viet Celts TH",
+          "ISHCMC",
+          "Thailand"
+        ]
+      },
+      "rules": {
+        "scoreValues": {
+          "goal": 3,
+          "point": 1
+        },
+        "competitionPoints": {
+          "win": 3,
+          "draw": 1,
+          "loss": 0
+        },
+        "rankingGuidance": [
+          "competitionPoints",
+          "scoreDifference",
+          "totalScored"
+        ],
+        "unresolvedTie": "team_agreement",
+        "crossoverResultsCount": true,
+        "finalsCountForStandings": false,
+        "progression": {
+          "requireAllQualifyingResults": true,
+          "requireResolvedQualifyingTies": true,
+          "finals": [
+            {
+              "name": "Cup",
+              "matchId": "U11-F01",
+              "participants": [
+                {
+                  "group": "A",
+                  "position": 1
+                },
+                {
+                  "group": "B",
+                  "position": 1
+                }
+              ]
+            },
+            {
+              "name": "Plate",
+              "matchId": "U11-F02",
+              "participants": [
+                {
+                  "group": "A",
+                  "position": 2
+                },
+                {
+                  "group": "B",
+                  "position": 2
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "matchId": "U11-F03",
+              "participants": [
+                {
+                  "group": "A",
+                  "position": 3
+                },
+                {
+                  "group": "B",
+                  "position": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "standingsDecisions": [],
+      "matches": [
+        {
+          "id": "U11-G04",
+          "date": "2026-11-07",
+          "start": "11:15",
+          "end": "11:35",
+          "pitch": "1",
+          "stage": "Group Stage",
+          "group": "A",
+          "team1": "Viet Celts",
+          "team2": "Na Fianna",
+          "team1Label": "Viet Celts",
+          "team2Label": "Na Fianna",
+          "referee": "Daniel Burke",
+          "notes": "Group A",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-G06",
+          "date": "2026-11-07",
+          "start": "11:35",
+          "end": "11:55",
+          "pitch": "1",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Singapore",
+          "team2": "Viet Celts TH",
+          "team1Label": "Singapore",
+          "team2Label": "Viet Celts TH",
+          "referee": "Daniel Burke",
+          "notes": "Crossover",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-G05",
+          "date": "2026-11-07",
+          "start": "11:35",
+          "end": "11:55",
+          "pitch": "2",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "ISHCMC",
+          "team2": "Thailand",
+          "team1Label": "ISHCMC",
+          "team2Label": "Thailand",
+          "referee": "Jo Clark",
+          "notes": "Group B • moved 20 min to make room for U7",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-G01",
+          "date": "2026-11-07",
+          "start": "12:35",
+          "end": "12:55",
+          "pitch": "1",
+          "stage": "Group Stage",
+          "group": "A",
+          "team1": "Viet Celts",
+          "team2": "Singapore",
+          "team1Label": "Viet Celts",
+          "team2Label": "Singapore",
+          "referee": "Daniel Burke",
+          "notes": "Group A",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-G02",
+          "date": "2026-11-07",
+          "start": "12:55",
+          "end": "13:15",
+          "pitch": "1",
+          "stage": "Group Stage",
+          "group": "B",
+          "team1": "Viet Celts TH",
+          "team2": "ISHCMC",
+          "team1Label": "Viet Celts TH",
+          "team2Label": "ISHCMC",
+          "referee": "Everna Everard",
+          "notes": "Group B",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-G03",
+          "date": "2026-11-07",
+          "start": "12:55",
+          "end": "13:15",
+          "pitch": "2",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Na Fianna",
+          "team2": "Thailand",
+          "team1Label": "Na Fianna",
+          "team2Label": "Thailand",
+          "referee": "Conor Melvin",
+          "notes": "Crossover • moved 20 min to make room for U7",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-G07",
+          "date": "2026-11-07",
+          "start": "13:55",
+          "end": "14:15",
+          "pitch": "1",
+          "stage": "Group Stage",
+          "group": "A",
+          "team1": "Na Fianna",
+          "team2": "Singapore",
+          "team1Label": "Na Fianna",
+          "team2Label": "Singapore",
+          "referee": "Matt O'Brien",
+          "notes": "Group A",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-G08",
+          "date": "2026-11-07",
+          "start": "14:15",
+          "end": "14:35",
+          "pitch": "1",
+          "stage": "Group Stage",
+          "group": "B",
+          "team1": "Viet Celts TH",
+          "team2": "Thailand",
+          "team1Label": "Viet Celts TH",
+          "team2Label": "Thailand",
+          "referee": "Everna Everard",
+          "notes": "Group B",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-G09",
+          "date": "2026-11-07",
+          "start": "14:15",
+          "end": "14:35",
+          "pitch": "2",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "ISHCMC",
+          "team1Label": "Viet Celts",
+          "team2Label": "ISHCMC",
+          "referee": "Catriona Treanor",
+          "notes": "Crossover",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-F01",
+          "date": "2026-11-07",
+          "start": "14:55",
+          "end": "15:15",
+          "pitch": "1",
+          "stage": "Cup Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "Group A 1st",
+          "team2Label": "Group B 1st",
+          "referee": "Colin Dixon",
+          "notes": "Cup",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-F02",
+          "date": "2026-11-07",
+          "start": "14:55",
+          "end": "15:15",
+          "pitch": "2",
+          "stage": "Plate Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "Group A 2nd",
+          "team2Label": "Group B 2nd",
+          "referee": null,
+          "notes": "Plate",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U11-F03",
+          "date": "2026-11-07",
+          "start": "14:55",
+          "end": "15:15",
+          "pitch": "3",
+          "stage": "Shield Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "Group A 3rd",
+          "team2Label": "Group B 3rd",
+          "referee": null,
+          "notes": "Shield",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": "U13",
+      "name": "Under 13s",
+      "format": "groups_with_crossover_and_finals",
+      "teams": [
+        "Na Fianna",
+        "Singapore",
+        "Viet Celts",
+        "Thailand",
+        "ISHCMC",
+        "Viet Celts TH"
+      ],
+      "groups": {
+        "A": [
+          "Viet Celts",
+          "Na Fianna",
+          "Singapore"
+        ],
+        "B": [
+          "Viet Celts TH",
+          "ISHCMC",
+          "Thailand"
+        ]
+      },
+      "rules": {
+        "scoreValues": {
+          "goal": 3,
+          "point": 1
+        },
+        "competitionPoints": {
+          "win": 3,
+          "draw": 1,
+          "loss": 0
+        },
+        "rankingGuidance": [
+          "competitionPoints",
+          "scoreDifference",
+          "totalScored"
+        ],
+        "unresolvedTie": "team_agreement",
+        "crossoverResultsCount": true,
+        "finalsCountForStandings": false,
+        "progression": {
+          "requireAllQualifyingResults": true,
+          "requireResolvedQualifyingTies": true,
+          "finals": [
+            {
+              "name": "Cup",
+              "matchId": "U13-F01",
+              "participants": [
+                {
+                  "group": "A",
+                  "position": 1
+                },
+                {
+                  "group": "B",
+                  "position": 1
+                }
+              ]
+            },
+            {
+              "name": "Plate",
+              "matchId": "U13-F02",
+              "participants": [
+                {
+                  "group": "A",
+                  "position": 2
+                },
+                {
+                  "group": "B",
+                  "position": 2
+                }
+              ]
+            },
+            {
+              "name": "Shield",
+              "matchId": "U13-F03",
+              "participants": [
+                {
+                  "group": "A",
+                  "position": 3
+                },
+                {
+                  "group": "B",
+                  "position": 3
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "standingsDecisions": [],
+      "matches": [
+        {
+          "id": "U13-G01",
+          "date": "2026-11-07",
+          "start": "10:35",
+          "end": "10:55",
+          "pitch": "2",
+          "stage": "Group Stage",
+          "group": "A",
+          "team1": "Na Fianna",
+          "team2": "Singapore",
+          "team1Label": "Na Fianna",
+          "team2Label": "Singapore",
+          "referee": "Joe Trolan",
+          "notes": "Group A",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-G02",
+          "date": "2026-11-07",
+          "start": "10:35",
+          "end": "10:55",
+          "pitch": "3",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "Thailand",
+          "team1Label": "Viet Celts",
+          "team2Label": "Thailand",
+          "referee": "Everna Everard",
+          "notes": "Crossover",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-G04",
+          "date": "2026-11-07",
+          "start": "11:55",
+          "end": "12:15",
+          "pitch": "2",
+          "stage": "Group Stage",
+          "group": "B",
+          "team1": "ISHCMC",
+          "team2": "Thailand",
+          "team1Label": "ISHCMC",
+          "team2Label": "Thailand",
+          "referee": "Kelly Mason",
+          "notes": "Group B",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-G08",
+          "date": "2026-11-07",
+          "start": "11:55",
+          "end": "12:15",
+          "pitch": "3",
+          "stage": "Group Stage",
+          "group": "A",
+          "team1": "Viet Celts",
+          "team2": "Na Fianna",
+          "team1Label": "Viet Celts",
+          "team2Label": "Na Fianna",
+          "referee": "Everna Everard",
+          "notes": "Group A",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-G03",
+          "date": "2026-11-07",
+          "start": "13:15",
+          "end": "13:35",
+          "pitch": "2",
+          "stage": "Group Stage",
+          "group": "A",
+          "team1": "Viet Celts",
+          "team2": "Singapore",
+          "team1Label": "Viet Celts",
+          "team2Label": "Singapore",
+          "referee": "Joe Trolan",
+          "notes": "Group A",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-G06",
+          "date": "2026-11-07",
+          "start": "13:15",
+          "end": "13:35",
+          "pitch": "3",
+          "stage": "Group Stage",
+          "group": "B",
+          "team1": "Viet Celts TH",
+          "team2": "Thailand",
+          "team1Label": "Viet Celts TH",
+          "team2Label": "Thailand",
+          "referee": "Jo Clark",
+          "notes": "Group B",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-G09",
+          "date": "2026-11-07",
+          "start": "13:55",
+          "end": "14:15",
+          "pitch": "2",
+          "stage": "Group Stage",
+          "group": "B",
+          "team1": "Viet Celts TH",
+          "team2": "ISHCMC",
+          "team1Label": "Viet Celts TH",
+          "team2Label": "ISHCMC",
+          "referee": "Daniel Burke",
+          "notes": "Group B",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-G05",
+          "date": "2026-11-07",
+          "start": "14:35",
+          "end": "14:55",
+          "pitch": "2",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Na Fianna",
+          "team2": "Viet Celts TH",
+          "team1Label": "Na Fianna",
+          "team2Label": "Viet Celts TH",
+          "referee": "Jo Clark",
+          "notes": "Crossover",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-G07",
+          "date": "2026-11-07",
+          "start": "14:35",
+          "end": "14:55",
+          "pitch": "3",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Singapore",
+          "team2": "ISHCMC",
+          "team1Label": "Singapore",
+          "team2Label": "ISHCMC",
+          "referee": "Conor Melvin",
+          "notes": "Crossover",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-F01",
+          "date": "2026-11-07",
+          "start": "15:35",
+          "end": "15:55",
+          "pitch": "1",
+          "stage": "Cup Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "Group A 1st",
+          "team2Label": "Group B 1st",
+          "referee": "Colin Dixon",
+          "notes": "Cup",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-F02",
+          "date": "2026-11-07",
+          "start": "15:35",
+          "end": "15:55",
+          "pitch": "2",
+          "stage": "Plate Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "Group A 2nd",
+          "team2Label": "Group B 2nd",
+          "referee": null,
+          "notes": "Plate",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U13-F03",
+          "date": "2026-11-07",
+          "start": "15:35",
+          "end": "15:55",
+          "pitch": "3",
+          "stage": "Shield Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "Group A 3rd",
+          "team2Label": "Group B 3rd",
+          "referee": null,
+          "notes": "Shield",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": "U15",
+      "name": "Under 15s",
+      "format": "round_robin_with_finals",
+      "teams": [
+        "Na Fianna",
+        "Viet Celts",
+        "BIS",
+        "Thailand/Singapore"
+      ],
+      "groups": {},
+      "rules": {
+        "scoreValues": {
+          "goal": 3,
+          "point": 1
+        },
+        "competitionPoints": {
+          "win": 3,
+          "draw": 1,
+          "loss": 0
+        },
+        "rankingGuidance": [
+          "competitionPoints",
+          "scoreDifference",
+          "totalScored"
+        ],
+        "unresolvedTie": "team_agreement",
+        "crossoverResultsCount": false,
+        "finalsCountForStandings": false,
+        "progression": {
+          "requireAllQualifyingResults": true,
+          "requireResolvedQualifyingTies": true,
+          "finals": [
+            {
+              "name": "Cup",
+              "matchId": "U15-F01",
+              "participants": [
+                {
+                  "position": 1
+                },
+                {
+                  "position": 2
+                }
+              ]
+            },
+            {
+              "name": "Plate",
+              "matchId": "U15-F02",
+              "participants": [
+                {
+                  "position": 3
+                },
+                {
+                  "position": 4
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "standingsDecisions": [],
+      "matches": [
+        {
+          "id": "U15-G03",
+          "date": "2026-11-07",
+          "start": "11:15",
+          "end": "11:35",
+          "pitch": "2",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Na Fianna",
+          "team2": "Viet Celts",
+          "team1Label": "Na Fianna",
+          "team2Label": "Viet Celts",
+          "referee": "Matt O'Brien",
+          "notes": "Round Robin",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U15-G04",
+          "date": "2026-11-07",
+          "start": "11:35",
+          "end": "11:55",
+          "pitch": "3",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "BIS",
+          "team2": "Thailand/Singapore",
+          "team1Label": "BIS",
+          "team2Label": "Thailand/Singapore",
+          "referee": "James O' Flaherty",
+          "notes": "Round Robin",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U15-G02",
+          "date": "2026-11-07",
+          "start": "12:35",
+          "end": "12:55",
+          "pitch": "3",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "Thailand/Singapore",
+          "team1Label": "Viet Celts",
+          "team2Label": "Thailand/Singapore",
+          "referee": "Matt O'Brien",
+          "notes": "Round Robin",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U15-G01",
+          "date": "2026-11-07",
+          "start": "12:55",
+          "end": "13:15",
+          "pitch": "3",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Na Fianna",
+          "team2": "BIS",
+          "team1Label": "Na Fianna",
+          "team2Label": "BIS",
+          "referee": "Joe Trolan",
+          "notes": "Round Robin",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U15-G05",
+          "date": "2026-11-07",
+          "start": "13:55",
+          "end": "14:15",
+          "pitch": "3",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Na Fianna",
+          "team2": "Thailand/Singapore",
+          "team1Label": "Na Fianna",
+          "team2Label": "Thailand/Singapore",
+          "referee": "Jo Clark",
+          "notes": "Round Robin",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U15-G06",
+          "date": "2026-11-07",
+          "start": "14:15",
+          "end": "14:35",
+          "pitch": "3",
+          "stage": "Group Stage",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "BIS",
+          "team1Label": "Viet Celts",
+          "team2Label": "BIS",
+          "referee": "Joe Trolan",
+          "notes": "Round Robin",
+          "status": "scheduled",
+          "countsForStandings": true,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U15-F01",
+          "date": "2026-11-07",
+          "start": "15:55",
+          "end": "16:15",
+          "pitch": "1",
+          "stage": "Cup Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "1st Place",
+          "team2Label": "2nd Place",
+          "referee": null,
+          "notes": "Cup",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U15-F02",
+          "date": "2026-11-07",
+          "start": "15:55",
+          "end": "16:15",
+          "pitch": "2",
+          "stage": "Plate Final",
+          "group": null,
+          "team1": null,
+          "team2": null,
+          "team1Label": "3rd Place",
+          "team2Label": "4th Place",
+          "referee": null,
+          "notes": "Plate",
+          "status": "awaiting_qualification",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": "U17",
+      "name": "Under 17s",
+      "format": "best_of_three",
+      "teams": [
+        "BIS",
+        "Thailand/Na Fianna/Viet Celts HCMC",
+        "Viet Celts"
+      ],
+      "groups": {},
+      "rules": {
+        "scoreValues": {
+          "goal": 3,
+          "point": 1
+        },
+        "competitionPoints": null,
+        "rankingGuidance": [],
+        "unresolvedTie": "team_agreement",
+        "crossoverResultsCount": false,
+        "finalsCountForStandings": false,
+        "progression": {
+          "seriesTeams": [
+            "Viet Celts",
+            "BIS"
+          ],
+          "winsRequired": 2,
+          "matchIds": [
+            "U17-S01",
+            "U17-S02",
+            "U17-S03"
+          ],
+          "conditionalMatch": {
+            "matchId": "U17-S03",
+            "condition": "one_win_each_after_first_two_series_matches"
+          },
+          "friendlyMatchesCount": false,
+          "tiedSeriesMatch": "team_agreement_required_before_awarding_win"
+        }
+      },
+      "standingsDecisions": [],
+      "matches": [
+        {
+          "id": "U17-FR01",
+          "date": "2026-11-07",
+          "start": "10:15",
+          "end": "10:35",
+          "pitch": "Full Pitch",
+          "stage": "Friendly",
+          "group": null,
+          "team1": "BIS",
+          "team2": "Thailand/Na Fianna/Viet Celts HCMC",
+          "team1Label": "BIS",
+          "team2Label": "Thailand/Na Fianna/Viet Celts HCMC",
+          "referee": "Joe Trolan",
+          "notes": "Friendly • not counted for championship",
+          "status": "scheduled",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U17-FR02",
+          "date": "2026-11-07",
+          "start": "10:55",
+          "end": "11:15",
+          "pitch": "Full Pitch",
+          "stage": "Friendly",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "Thailand/Na Fianna/Viet Celts HCMC",
+          "team1Label": "Viet Celts",
+          "team2Label": "Thailand/Na Fianna/Viet Celts HCMC",
+          "referee": "Laura Comerford",
+          "notes": "Friendly • combined team departs before 12:30",
+          "status": "scheduled",
+          "countsForStandings": false,
+          "countsForSeries": false,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U17-S01",
+          "date": "2026-11-07",
+          "start": "12:15",
+          "end": "12:35",
+          "pitch": "Full Pitch",
+          "stage": "Best of Three – Game 1",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "BIS",
+          "team1Label": "Viet Celts",
+          "team2Label": "BIS",
+          "referee": "Conor Melvin",
+          "notes": "Championship series • Game 1",
+          "status": "scheduled",
+          "countsForStandings": false,
+          "countsForSeries": true,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U17-S02",
+          "date": "2026-11-07",
+          "start": "13:35",
+          "end": "13:55",
+          "pitch": "Full Pitch",
+          "stage": "Best of Three – Game 2",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "BIS",
+          "team1Label": "Viet Celts",
+          "team2Label": "BIS",
+          "referee": "Conor Melvin",
+          "notes": "Championship series • Game 2",
+          "status": "scheduled",
+          "countsForStandings": false,
+          "countsForSeries": true,
+          "score": null,
+          "decision": null
+        },
+        {
+          "id": "U17-S03",
+          "date": "2026-11-07",
+          "start": "16:15",
+          "end": "16:35",
+          "pitch": "Full Pitch",
+          "stage": "Best of Three – Game 3",
+          "group": null,
+          "team1": "Viet Celts",
+          "team2": "BIS",
+          "team1Label": "Viet Celts",
+          "team2Label": "BIS",
+          "referee": null,
+          "notes": "IF REQUIRED • play only if series is 1–1",
+          "status": "conditional",
+          "countsForStandings": false,
+          "countsForSeries": true,
+          "score": null,
+          "decision": null
+        }
+      ]
+    }
+  ],
+  "scheduleItems": [
+    {
+      "id": "AYC-2026-HURLING",
+      "name": "Hurling",
+      "date": "2026-11-07",
+      "start": "16:35",
+      "end": "17:30",
+      "pitch": "Full Pitch",
+      "status": "scheduled"
+    }
+  ]
+}
+
